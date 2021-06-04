@@ -18,6 +18,7 @@ Ideal web3 wallet.
 2. When some code in dApp called `Web3Wallet.generateTransferQrcode`, current page shows a QRCode:  
 ```
 {
+  action: "transfer",
   coin,
   network,
   targetAddress,
